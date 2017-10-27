@@ -27,7 +27,9 @@
 +(void)show
 {
    UIWindow *window= [UIApplication sharedApplication].delegate.window;
-    UIImage *  image=[UIImage imageNamed:@"alipay_msp_3rdApp_loading"];
+//    UIImage *  image=[UIImage imageNamed:@"alipay_msp_3rdApp_loading"];
+    //替换图片即可
+    UIImage *  image=[UIImage imageNamed:@"loading"];
     CGSize size=image.size;
     LSTreeLoading *loading=[LSTreeLoading layer];
     loading.progress=1;
